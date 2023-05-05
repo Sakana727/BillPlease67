@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Demo Simple Click</string>
+    <string name="disp">Display</string>
+    <string name="Enter_amt">Enter Amount</string>
+    <string name="show">display what the user enters here</string>
+    <string name="togglebtn">ToggleButton</string>
+    <string name="C">Cash</string>
+    <string name="PN">PayNow</string>
+    <string name="amount">Amount</string>
+    <string name="num_of_pax">Num of Pax</string>
+    <string name="enter_number_of_pax">Enter Number of Pax</string>
+    <string name="svs">SVS</string>
+    <string name="no_svs">NO SVS</string>
+    <string name="gst">GST</string>
+    <string name="no_gst">NO GST</string>
+    <string name="discount">Discount (%)</string>
+    <string name="enter_discount_percentage">Enter discount percentage</string>
+    <string name="split">SPLIT</string>
+    <string name="reset">RESET</string>
+    <string name="total_bill">Total Bill:</string>
+    <string name="each_pays">Each Pays:</string>
+</resources>

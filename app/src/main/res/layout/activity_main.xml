@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
 
     <TextView
         android:id="@+id/amountView"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Enter_amt"
-        android:inputType="text" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/paxView"
@@ -32,13 +32,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/enter_number_of_pax"
-        android:inputType="text" />
+        android:inputType="number" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
 
         <ToggleButton
             android:id="@+id/svstbtn"
@@ -56,6 +55,7 @@
             android:textOff="@string/gst"
             android:textOn="@string/no_gst" />
     </LinearLayout>
+
     <TextView
         android:id="@+id/discountView"
         android:layout_width="match_parent"
@@ -68,8 +68,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/enter_discount_percentage"
-        android:inputType="text"/>
-
+        android:inputType="numberDecimal"/>
 
     <RadioGroup
         android:id="@+id/radioGroupPaymentType"
@@ -90,7 +89,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/PN" />
-
     </RadioGroup>
 
     <LinearLayout
@@ -111,7 +109,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/reset"/>
-
     </LinearLayout>
 
     <TextView
@@ -125,6 +122,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/each_pays" />
-
-
 </LinearLayout>

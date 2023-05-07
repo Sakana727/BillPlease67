@@ -1,9 +1,7 @@
 package sg.edu.rp.c346.id22020383.billplease;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
